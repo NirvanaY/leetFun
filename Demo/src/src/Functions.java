@@ -5,7 +5,57 @@ import java.util.HashMap;
 public class Functions {
 
 
+// no 12 罗马数字转整数
+	public int romanToInt(String s) {
 
+		int sum = 0;
+		
+		for (int i = 0; i < s.length(); i++) {
+			char cc = s.charAt(i);
+			switch (cc) {
+			case 'I':
+				sum = sum + 1;
+				break;
+			case 'V':
+				sum = sum + 5;
+				break;
+			case 'X':
+				sum = sum + 10;
+				break;
+			case 'L':
+				sum = sum + 50;
+				break;
+			case 'C':
+				sum = sum + 100;
+				break;
+			case 'D':
+				sum = sum + 500;
+				break;
+			case 'M':
+				sum = sum + 1000;
+				break;
+			}
+
+			if (cc == 'I' && i < (s.length() - 1)
+					&& (s.charAt(i + 1) == 'V' || s.charAt(i + 1) == 'X')) {
+				sum = sum - 2;
+			}
+
+			else if (cc == 'X' && i < (s.length() - 1)
+					&& (s.charAt(i + 1) == 'L' || s.charAt(i + 1) == 'C')) {
+				sum = sum - 20;
+			}
+
+			else if (cc == 'C' && i < (s.length() - 1)
+					&& (s.charAt(i + 1) == 'D' || s.charAt(i + 1) == 'M')) {
+				sum = sum - 200;
+			}
+
+		}
+
+		return sum;
+
+	}
 
     // No 594
     // 2147 ms	39.9 MB
