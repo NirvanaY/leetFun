@@ -85,7 +85,65 @@ public class Functions {
             }
         }
 
-
         return rs;
     }
+
+
+    //no5  最长回文子串 暴力解法执行用时：
+    //1209 ms
+    //, 在所有 Java 提交中击败了
+    //5.01%
+    //的用户
+    //内存消耗：
+    //38 MB
+    //, 在所有 Java 提交中击败了
+    //25.89%
+    //的用户
+    public String longestPalindrome(String s) {
+        int lenth = s.length();
+        if(lenth < 2){
+            return s;
+        }
+        char[] arr = s.toCharArray();
+        int maxlen = 1;
+        int left = 0;
+
+        for(int i =0;i<lenth-1; i++){
+            for(int j=i+1;j<lenth;j++){
+                if(validStringForPalin(i,j,arr)){
+                    if( j- i +1> maxlen){
+                        maxlen = j-i+1;
+                        left = i;
+                    }
+                }
+            }
+        }
+        return s.substring(left,left+maxlen);
+    }
+
+    public  boolean validStringForPalin(int left,int right,char[] s){
+
+        while(left<right){
+
+            if(s[left] != s[right]){
+                return false;
+            }
+            left++;
+            right--;
+        }
+
+        return true;
+
+    }
+
+
+    //中心扩散
+
+
+
+
+
+
+
+
 }
