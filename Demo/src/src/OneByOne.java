@@ -1,6 +1,7 @@
 package src;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class OneByOne {
@@ -48,6 +49,30 @@ public class OneByOne {
         }
 
         return first.next;
+    }
+
+
+
+//#3 longest-substring-without-repeating-characters
+    public int lengthOfLongestSubstring(String s) {
+       HashSet<Character> set = new HashSet<Character>();
+       int n = s.length();
+       int point= -1;
+       int longestLength = 0;
+
+       for(int i= 0;i<n;i++){
+           if(i!=0){
+               set.remove(s.charAt(i));
+           }
+           while(point<n&&!set.contains(s.charAt(point))){
+               set.add(s.charAt(i));
+               point++;
+           }
+           longestLength = Math.max(longestLength,point-i+1);
+
+       }
+
+       return longestLength;
     }
 }
 

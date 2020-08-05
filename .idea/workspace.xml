@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b035157-429f-4847-b156-885c853f2753" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Demo/src/src/OneByOne.java" afterPath="$PROJECT_DIR$/Demo/src/src/OneByOne.java" />
     </list>
     <ignored path="$PROJECT_DIR$/Demo/bin/" />
@@ -29,11 +28,12 @@
       <file leaf-file-name="OneByOne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo/src/src/OneByOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="49" column="26" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="227">
+              <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#227#245#0" expanded="true" />
+                <element signature="e#253#271#0" expanded="true" />
+                <element signature="e#1399#1410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +85,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="264" />
     <option name="y" value="13" />
     <option name="width" value="1665" />
@@ -279,15 +279,15 @@
       <updated>1593760187217</updated>
       <workItem from="1593760195533" duration="11518000" />
       <workItem from="1594726705737" duration="2221000" />
-      <workItem from="1596076171398" duration="4932000" />
+      <workItem from="1596076171398" duration="10102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18671000" />
+    <option name="totallyTimeSpent" value="23841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -345,7 +345,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Demo/src/src/OneByOne.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -369,7 +369,8 @@
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#253#271#0" expanded="true" />
+            <element signature="e#1399#1410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -411,11 +412,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/src/src/OneByOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="49" column="26" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="227">
+          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#253#271#0" expanded="true" />
+            <element signature="e#1399#1410#0" expanded="true" />
           </folding>
         </state>
       </provider>
