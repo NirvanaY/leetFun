@@ -4,10 +4,11 @@ public class Main {
 
 	
 	public static void main (String args[]){
-		Functions fun = new Functions();
+		OneByOne fun = new OneByOne();
 
 
-		System.out.println(fun.longestPalindrome("cbbd"));
+
+		System.out.println(Integer.MAX_VALUE);
 		
 	}
 }
