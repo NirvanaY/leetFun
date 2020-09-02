@@ -122,7 +122,7 @@ public class OneByOne {
 
 
 
-    //#7 reverse-integer 1534236469
+    //#7 reverse-integer 1534236469 hah
     public int reverse(int x) {
 
         int rs = 0;
